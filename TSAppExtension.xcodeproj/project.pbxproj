@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDECE6A31CE2094E00AD77E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDECE6A21CE2094E00AD77E8 /* main.m */; };
+		DDECE6A61CE2094E00AD77E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDECE6A51CE2094E00AD77E8 /* AppDelegate.m */; };
+		DDECE6A91CE2094E00AD77E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDECE6A81CE2094E00AD77E8 /* ViewController.m */; };
+		DDECE6AC1CE2094E00AD77E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDECE6AA1CE2094E00AD77E8 /* Main.storyboard */; };
+		DDECE6AE1CE2094E00AD77E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDECE6AD1CE2094E00AD77E8 /* Assets.xcassets */; };
+		DDECE6B11CE2094E00AD77E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDECE6AF1CE2094E00AD77E8 /* LaunchScreen.storyboard */; };
+		DDECE6BC1CE2094E00AD77E8 /* TSAppExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDECE6BB1CE2094E00AD77E8 /* TSAppExtensionTests.m */; };
+		DDECE6C71CE2094E00AD77E8 /* TSAppExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDECE6C61CE2094E00AD77E8 /* TSAppExtensionUITests.m */; };
+		DDECE6DB1CE209B400AD77E8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDECE6DA1CE209B400AD77E8 /* NotificationCenter.framework */; };
+		DDECE6DF1CE209B400AD77E8 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDECE6DE1CE209B400AD77E8 /* TodayViewController.m */; };
+		DDECE6E21CE209B400AD77E8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDECE6E01CE209B400AD77E8 /* MainInterface.storyboard */; };
+		DDECE6E61CE209B400AD77E8 /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DDECE6D81CE209B400AD77E8 /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDECE6B81CE2094E00AD77E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDECE6961CE2094E00AD77E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDECE69D1CE2094E00AD77E8;
+			remoteInfo = TSAppExtension;
+		};
+		DDECE6C31CE2094E00AD77E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDECE6961CE2094E00AD77E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDECE69D1CE2094E00AD77E8;
+			remoteInfo = TSAppExtension;
+		};
+		DDECE6E41CE209B400AD77E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDECE6961CE2094E00AD77E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDECE6D71CE209B400AD77E8;
+			remoteInfo = TodayExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDECE6EA1CE209B400AD77E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DDECE6E61CE209B400AD77E8 /* TodayExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDECE69E1CE2094E00AD77E8 /* TSAppExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSAppExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDECE6A21CE2094E00AD77E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDECE6A41CE2094E00AD77E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDECE6A51CE2094E00AD77E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDECE6A71CE2094E00AD77E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDECE6A81CE2094E00AD77E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDECE6AB1CE2094E00AD77E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDECE6AD1CE2094E00AD77E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDECE6B01CE2094E00AD77E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDECE6B21CE2094E00AD77E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDECE6B71CE2094E00AD77E8 /* TSAppExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSAppExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDECE6BB1CE2094E00AD77E8 /* TSAppExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppExtensionTests.m; sourceTree = "<group>"; };
+		DDECE6BD1CE2094E00AD77E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDECE6C21CE2094E00AD77E8 /* TSAppExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSAppExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDECE6C61CE2094E00AD77E8 /* TSAppExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppExtensionUITests.m; sourceTree = "<group>"; };
+		DDECE6C81CE2094E00AD77E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDECE6D81CE209B400AD77E8 /* TodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDECE6DA1CE209B400AD77E8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		DDECE6DD1CE209B400AD77E8 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		DDECE6DE1CE209B400AD77E8 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		DDECE6E11CE209B400AD77E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DDECE6E31CE209B400AD77E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDECE69B1CE2094E00AD77E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6B41CE2094E00AD77E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6BF1CE2094E00AD77E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6D51CE209B400AD77E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDECE6DB1CE209B400AD77E8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDECE6951CE2094E00AD77E8 = {
+			isa = PBXGroup;
+			children = (
+				DDECE6A01CE2094E00AD77E8 /* TSAppExtension */,
+				DDECE6BA1CE2094E00AD77E8 /* TSAppExtensionTests */,
+				DDECE6C51CE2094E00AD77E8 /* TSAppExtensionUITests */,
+				DDECE6DC1CE209B400AD77E8 /* TodayExtension */,
+				DDECE6D91CE209B400AD77E8 /* Frameworks */,
+				DDECE69F1CE2094E00AD77E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDECE69F1CE2094E00AD77E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDECE69E1CE2094E00AD77E8 /* TSAppExtension.app */,
+				DDECE6B71CE2094E00AD77E8 /* TSAppExtensionTests.xctest */,
+				DDECE6C21CE2094E00AD77E8 /* TSAppExtensionUITests.xctest */,
+				DDECE6D81CE209B400AD77E8 /* TodayExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDECE6A01CE2094E00AD77E8 /* TSAppExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DDECE6A41CE2094E00AD77E8 /* AppDelegate.h */,
+				DDECE6A51CE2094E00AD77E8 /* AppDelegate.m */,
+				DDECE6A71CE2094E00AD77E8 /* ViewController.h */,
+				DDECE6A81CE2094E00AD77E8 /* ViewController.m */,
+				DDECE6AA1CE2094E00AD77E8 /* Main.storyboard */,
+				DDECE6AD1CE2094E00AD77E8 /* Assets.xcassets */,
+				DDECE6AF1CE2094E00AD77E8 /* LaunchScreen.storyboard */,
+				DDECE6B21CE2094E00AD77E8 /* Info.plist */,
+				DDECE6A11CE2094E00AD77E8 /* Supporting Files */,
+			);
+			path = TSAppExtension;
+			sourceTree = "<group>";
+		};
+		DDECE6A11CE2094E00AD77E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDECE6A21CE2094E00AD77E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDECE6BA1CE2094E00AD77E8 /* TSAppExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDECE6BB1CE2094E00AD77E8 /* TSAppExtensionTests.m */,
+				DDECE6BD1CE2094E00AD77E8 /* Info.plist */,
+			);
+			path = TSAppExtensionTests;
+			sourceTree = "<group>";
+		};
+		DDECE6C51CE2094E00AD77E8 /* TSAppExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDECE6C61CE2094E00AD77E8 /* TSAppExtensionUITests.m */,
+				DDECE6C81CE2094E00AD77E8 /* Info.plist */,
+			);
+			path = TSAppExtensionUITests;
+			sourceTree = "<group>";
+		};
+		DDECE6D91CE209B400AD77E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDECE6DA1CE209B400AD77E8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDECE6DC1CE209B400AD77E8 /* TodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DDECE6DD1CE209B400AD77E8 /* TodayViewController.h */,
+				DDECE6DE1CE209B400AD77E8 /* TodayViewController.m */,
+				DDECE6E01CE209B400AD77E8 /* MainInterface.storyboard */,
+				DDECE6E31CE209B400AD77E8 /* Info.plist */,
+			);
+			path = TodayExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDECE69D1CE2094E00AD77E8 /* TSAppExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDECE6CB1CE2094E00AD77E8 /* Build configuration list for PBXNativeTarget "TSAppExtension" */;
+			buildPhases = (
+				DDECE69A1CE2094E00AD77E8 /* Sources */,
+				DDECE69B1CE2094E00AD77E8 /* Frameworks */,
+				DDECE69C1CE2094E00AD77E8 /* Resources */,
+				DDECE6EA1CE209B400AD77E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDECE6E51CE209B400AD77E8 /* PBXTargetDependency */,
+			);
+			name = TSAppExtension;
+			productName = TSAppExtension;
+			productReference = DDECE69E1CE2094E00AD77E8 /* TSAppExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDECE6B61CE2094E00AD77E8 /* TSAppExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDECE6CE1CE2094E00AD77E8 /* Build configuration list for PBXNativeTarget "TSAppExtensionTests" */;
+			buildPhases = (
+				DDECE6B31CE2094E00AD77E8 /* Sources */,
+				DDECE6B41CE2094E00AD77E8 /* Frameworks */,
+				DDECE6B51CE2094E00AD77E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDECE6B91CE2094E00AD77E8 /* PBXTargetDependency */,
+			);
+			name = TSAppExtensionTests;
+			productName = TSAppExtensionTests;
+			productReference = DDECE6B71CE2094E00AD77E8 /* TSAppExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDECE6C11CE2094E00AD77E8 /* TSAppExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDECE6D11CE2094E00AD77E8 /* Build configuration list for PBXNativeTarget "TSAppExtensionUITests" */;
+			buildPhases = (
+				DDECE6BE1CE2094E00AD77E8 /* Sources */,
+				DDECE6BF1CE2094E00AD77E8 /* Frameworks */,
+				DDECE6C01CE2094E00AD77E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDECE6C41CE2094E00AD77E8 /* PBXTargetDependency */,
+			);
+			name = TSAppExtensionUITests;
+			productName = TSAppExtensionUITests;
+			productReference = DDECE6C21CE2094E00AD77E8 /* TSAppExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DDECE6D71CE209B400AD77E8 /* TodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDECE6E71CE209B400AD77E8 /* Build configuration list for PBXNativeTarget "TodayExtension" */;
+			buildPhases = (
+				DDECE6D41CE209B400AD77E8 /* Sources */,
+				DDECE6D51CE209B400AD77E8 /* Frameworks */,
+				DDECE6D61CE209B400AD77E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayExtension;
+			productName = TodayExtension;
+			productReference = DDECE6D81CE209B400AD77E8 /* TodayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDECE6961CE2094E00AD77E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tunsuy;
+				TargetAttributes = {
+					DDECE69D1CE2094E00AD77E8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DDECE6B61CE2094E00AD77E8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDECE69D1CE2094E00AD77E8;
+					};
+					DDECE6C11CE2094E00AD77E8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDECE69D1CE2094E00AD77E8;
+					};
+					DDECE6D71CE209B400AD77E8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DDECE6991CE2094E00AD77E8 /* Build configuration list for PBXProject "TSAppExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDECE6951CE2094E00AD77E8;
+			productRefGroup = DDECE69F1CE2094E00AD77E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDECE69D1CE2094E00AD77E8 /* TSAppExtension */,
+				DDECE6B61CE2094E00AD77E8 /* TSAppExtensionTests */,
+				DDECE6C11CE2094E00AD77E8 /* TSAppExtensionUITests */,
+				DDECE6D71CE209B400AD77E8 /* TodayExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDECE69C1CE2094E00AD77E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDECE6B11CE2094E00AD77E8 /* LaunchScreen.storyboard in Resources */,
+				DDECE6AE1CE2094E00AD77E8 /* Assets.xcassets in Resources */,
+				DDECE6AC1CE2094E00AD77E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6B51CE2094E00AD77E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6C01CE2094E00AD77E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6D61CE209B400AD77E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDECE6E21CE209B400AD77E8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDECE69A1CE2094E00AD77E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDECE6A91CE2094E00AD77E8 /* ViewController.m in Sources */,
+				DDECE6A61CE2094E00AD77E8 /* AppDelegate.m in Sources */,
+				DDECE6A31CE2094E00AD77E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6B31CE2094E00AD77E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDECE6BC1CE2094E00AD77E8 /* TSAppExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6BE1CE2094E00AD77E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDECE6C71CE2094E00AD77E8 /* TSAppExtensionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDECE6D41CE209B400AD77E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDECE6DF1CE209B400AD77E8 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDECE6B91CE2094E00AD77E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDECE69D1CE2094E00AD77E8 /* TSAppExtension */;
+			targetProxy = DDECE6B81CE2094E00AD77E8 /* PBXContainerItemProxy */;
+		};
+		DDECE6C41CE2094E00AD77E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDECE69D1CE2094E00AD77E8 /* TSAppExtension */;
+			targetProxy = DDECE6C31CE2094E00AD77E8 /* PBXContainerItemProxy */;
+		};
+		DDECE6E51CE209B400AD77E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDECE6D71CE209B400AD77E8 /* TodayExtension */;
+			targetProxy = DDECE6E41CE209B400AD77E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDECE6AA1CE2094E00AD77E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDECE6AB1CE2094E00AD77E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDECE6AF1CE2094E00AD77E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDECE6B01CE2094E00AD77E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DDECE6E01CE209B400AD77E8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDECE6E11CE209B400AD77E8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDECE6C91CE2094E00AD77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDECE6CA1CE2094E00AD77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDECE6CC1CE2094E00AD77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSAppExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDECE6CD1CE2094E00AD77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TSAppExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDECE6CF1CE2094E00AD77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSAppExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSAppExtension.app/TSAppExtension";
+			};
+			name = Debug;
+		};
+		DDECE6D01CE2094E00AD77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSAppExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSAppExtension.app/TSAppExtension";
+			};
+			name = Release;
+		};
+		DDECE6D21CE2094E00AD77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSAppExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSAppExtension;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDECE6D31CE2094E00AD77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSAppExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSAppExtension;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		DDECE6E81CE209B400AD77E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtension.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDECE6E91CE209B400AD77E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangfor.TSAppExtension.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDECE6991CE2094E00AD77E8 /* Build configuration list for PBXProject "TSAppExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDECE6C91CE2094E00AD77E8 /* Debug */,
+				DDECE6CA1CE2094E00AD77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDECE6CB1CE2094E00AD77E8 /* Build configuration list for PBXNativeTarget "TSAppExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDECE6CC1CE2094E00AD77E8 /* Debug */,
+				DDECE6CD1CE2094E00AD77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDECE6CE1CE2094E00AD77E8 /* Build configuration list for PBXNativeTarget "TSAppExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDECE6CF1CE2094E00AD77E8 /* Debug */,
+				DDECE6D01CE2094E00AD77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDECE6D11CE2094E00AD77E8 /* Build configuration list for PBXNativeTarget "TSAppExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDECE6D21CE2094E00AD77E8 /* Debug */,
+				DDECE6D31CE2094E00AD77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDECE6E71CE209B400AD77E8 /* Build configuration list for PBXNativeTarget "TodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDECE6E81CE209B400AD77E8 /* Debug */,
+				DDECE6E91CE209B400AD77E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDECE6961CE2094E00AD77E8 /* Project object */;
+}
